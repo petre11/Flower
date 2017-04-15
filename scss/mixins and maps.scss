@@ -1,0 +1,13 @@
+$colors:(
+main:#fff,
+laser:#ff0066
+);
+
+@mixin animation($name,$duartion,$timingFunction,$delay,$iterationCount,$fillMode){
+  animation-name: $name;
+  animation-duration:$duartion;
+  animation-timing-function:$timingFunction;
+  animation-delay:$delay;
+  animation-iteration-count: $iterationCount;
+  animation-fill-mode: $fillMode;
+}
