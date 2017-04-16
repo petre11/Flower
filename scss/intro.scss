@@ -40,11 +40,6 @@
    }
 }
 
-@keyframes moveRight {
-100%{
-  color:blue;
-}
-}
 @keyframes galaxyText1 {
   0%{
     opacity: 0;
@@ -53,3 +48,25 @@
     opacity: 1;
   }
 }
+
+@keyframes moveRight {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 250px);
+    visibility: hidden;
+  }
+
+}
+@keyframes circleDown {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1050px);
+      visibility: hidden;
+  }
+
+}
+// overflow:hidden;
