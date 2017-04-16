@@ -1,0 +1,55 @@
+@keyframes galaxyText{
+
+  0%{
+  font-size: 0.6rem;
+  font-weight: 400;
+  }
+
+
+  100%{
+  opacity: 1;
+
+  }
+}
+
+@keyframes circleAp {
+  0%{
+      top:-100vh;
+  }
+  100%{
+    top:0vh;
+  }
+}
+@keyframes galaxy {
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+
+@keyframes blink {
+ 0%{
+    opacity: 0;
+    text-shadow: none;
+  }
+  100% {
+     opacity: 1;
+     box-shadow: 1px 1px 50px -10px white;
+   }
+}
+
+@keyframes moveRight {
+100%{
+  color:blue;
+}
+}
+@keyframes galaxyText1 {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
