@@ -1,0 +1,51 @@
+@import "Partials/mixins";
+$petalwidth:6rem;
+$petalheight:18rem;
+*{
+  margin:0;
+}
+.container {
+overflow:hidden;
+
+width: 100%;
+height: 100vh;
+font-size: 10px;
+
+background:#080808;
+}
+
+.flower {
+  position: relative;
+
+  width: 5rem;
+  height: 5rem;
+  margin:35vh auto;
+
+  animation: flowerShow 1s linear 2s 1 forwards;
+
+  opacity: 0;
+
+}
+
+@keyframes flowerShow {
+  100%{
+    opacity: 1;
+  }
+
+}
+[class*="StarPetal"]{
+  position: absolute;
+  top: 5rem;
+
+  width:$petalwidth;
+  height:$petalheight;
+
+  transform-origin: 50px 50px;
+
+  border: 2px solid #fff;
+  border-radius: 50%/30% 30% 70% 70%;
+  @media  (max-width: 480px) {
+    width:$petalwidth*0.7;
+    height:$petalheight*0.7;
+  }
+}

@@ -1,0 +1,322 @@
+@media (max-width: 800px) {
+  .StarPetal1 {
+    box-shadow: 0px 0px 10px 5px darkcyan; }
+  .StarPetal2 {
+    box-shadow: 0px 0px 10px 5px blueviolet; }
+  .StarPetal3 {
+    box-shadow: 0px 0px 10px 5px orange; }
+  .StarPetal4 {
+    box-shadow: 0px 0px 10px 5px lime; }
+  .StarPetal5 {
+    box-shadow: 0px 0px 10px 5px indigo; }
+  .StarPetal6 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal7 {
+    box-shadow: 0px 0px 10px 5px orangered; }
+  .StarPetal8 {
+    box-shadow: 0px 0px 10px 5px gold; }
+  .StarPetal9 {
+    box-shadow: 0px 0px 10px 5px magenta; }
+  .StarPetal10 {
+    box-shadow: 0px 0px 10px 5px midnightblue; } }
+
+@media (min-width: 800px) {
+  .StarPetal1 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal2 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal3 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal4 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal5 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal6 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal7 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal8 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal9 {
+    box-shadow: 0px 0px 10px 5px crimson; }
+  .StarPetal10 {
+    box-shadow: 0px 0px 10px 5px crimson; } }
+
+@keyframes flowerShow1 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(36deg); } }
+
+@keyframes flowerShow2 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(72deg); } }
+
+@keyframes flowerShow3 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(108deg); } }
+
+@keyframes flowerShow4 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(144deg); } }
+
+@keyframes flowerShow5 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(180deg); } }
+
+@keyframes flowerShow6 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(216deg); } }
+
+@keyframes flowerShow7 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(252deg); } }
+
+@keyframes flowerShow8 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(288deg); } }
+
+@keyframes flowerShow9 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(324deg); } }
+
+@keyframes flowerShow10 {
+  0% {
+    transform: rotatez(36deg); }
+  100% {
+    transform: rotatez(360deg); } }
+
+@media (min-width: 500px) {
+  .StarPetal1 {
+    transform: rotatez(36deg);
+    animation: flowerShow1 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal2 {
+    transform: rotatez(36deg);
+    animation: flowerShow2 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal3 {
+    transform: rotatez(36deg);
+    animation: flowerShow3 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal4 {
+    transform: rotatez(36deg);
+    animation: flowerShow4 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal5 {
+    transform: rotatez(36deg);
+    animation: flowerShow5 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal6 {
+    transform: rotatez(36deg);
+    animation: flowerShow6 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal7 {
+    transform: rotatez(36deg);
+    animation: flowerShow7 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal8 {
+    transform: rotatez(36deg);
+    animation: flowerShow8 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal9 {
+    transform: rotatez(36deg);
+    animation: flowerShow9 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; }
+  .StarPetal10 {
+    transform: rotatez(36deg);
+    animation: flowerShow10 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 2s 1 forwards; } }
+
+@keyframes flowerHide1 {
+  0% {
+    transform: rotatez(36deg);
+    box-shadow: 0px 0px 10px 5px darkcyan;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide2 {
+  0% {
+    transform: rotatez(72deg);
+    box-shadow: 0px 0px 10px 5px blueviolet;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide3 {
+  0% {
+    transform: rotatez(108deg);
+    box-shadow: 0px 0px 10px 5px orange;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide4 {
+  0% {
+    transform: rotatez(144deg);
+    box-shadow: 0px 0px 10px 5px lime;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide5 {
+  0% {
+    transform: rotatez(180deg);
+    box-shadow: 0px 0px 10px 5px indigo;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide6 {
+  0% {
+    transform: rotatez(216deg);
+    box-shadow: 0px 0px 10px 5px crimson;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide7 {
+  0% {
+    transform: rotatez(252deg);
+    box-shadow: 0px 0px 10px 5px orangered;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide8 {
+  0% {
+    transform: rotatez(288deg);
+    box-shadow: 0px 0px 10px 5px gold;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide9 {
+  0% {
+    transform: rotatez(324deg);
+    box-shadow: 0px 0px 10px 5px magenta;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@keyframes flowerHide10 {
+  0% {
+    transform: rotatez(360deg);
+    box-shadow: 0px 0px 10px 5px midnightblue;
+    border: none; }
+  100% {
+    transform: rotatez(36deg);
+    border: 1px solid #fff;
+    box-shadow: none; } }
+
+@media (max-width: 500px) {
+  .StarPetal1 {
+    transform: rotatez(36deg);
+    box-shadow: 0px 0px 10px 5px darkcyan;
+    border: none;
+    animation: flowerHide1 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal2 {
+    transform: rotatez(72deg);
+    box-shadow: 0px 0px 10px 5px blueviolet;
+    border: none;
+    animation: flowerHide2 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal3 {
+    transform: rotatez(108deg);
+    box-shadow: 0px 0px 10px 5px orange;
+    border: none;
+    animation: flowerHide3 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal4 {
+    transform: rotatez(144deg);
+    box-shadow: 0px 0px 10px 5px lime;
+    border: none;
+    animation: flowerHide4 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal5 {
+    transform: rotatez(180deg);
+    box-shadow: 0px 0px 10px 5px indigo;
+    border: none;
+    animation: flowerHide5 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal6 {
+    transform: rotatez(216deg);
+    box-shadow: 0px 0px 10px 5px crimson;
+    border: none;
+    animation: flowerHide6 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal7 {
+    transform: rotatez(252deg);
+    box-shadow: 0px 0px 10px 5px orangered;
+    border: none;
+    animation: flowerHide7 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal8 {
+    transform: rotatez(288deg);
+    box-shadow: 0px 0px 10px 5px gold;
+    border: none;
+    animation: flowerHide8 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal9 {
+    transform: rotatez(324deg);
+    box-shadow: 0px 0px 10px 5px magenta;
+    border: none;
+    animation: flowerHide9 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; }
+  .StarPetal10 {
+    transform: rotatez(360deg);
+    box-shadow: 0px 0px 10px 5px midnightblue;
+    border: none;
+    animation: flowerHide10 2s cubic-bezier(0.8, -0.5, 0.2, 1.4) 4s 1 forwards; } }
+
+* {
+  margin: 0; }
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  font-size: 10px;
+  background: #080808; }
+
+.flower {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  margin: 35vh auto;
+  animation: flowerShow 1s linear 2s 1 forwards;
+  opacity: 0; }
+
+@keyframes flowerShow {
+  100% {
+    opacity: 1; } }
+
+[class*="StarPetal"] {
+  position: absolute;
+  top: 5rem;
+  width: 6rem;
+  height: 18rem;
+  transform-origin: 50px 50px;
+  border: 2px solid #fff;
+  border-radius: 50%/30% 30% 70% 70%; }
+  @media (max-width: 480px) {
+    [class*="StarPetal"] {
+      width: 4.2rem;
+      height: 12.6rem; } }
